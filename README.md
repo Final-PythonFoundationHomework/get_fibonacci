@@ -49,7 +49,3 @@ def get_fibonacci_number(n: int) -> int:
 - the function should return `0` if `n` is `0`
 - the function should return `1` if `n` is `1`
 - the function should return `None` if `n` is negative
-
-
-
-
