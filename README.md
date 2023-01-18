@@ -9,6 +9,8 @@ Objective: The objective of this exercise is to write a function that calculates
 3. Activate github actions on your fork.
 4. Add secret key.
 
+## Fibonacci sequence
+The sequence follows the rule that each number is equal to the sum of the preceding two numbers. The Fibonacci sequence begins with the following 14 integers: `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ...` Each number, starting with the third, adheres to the prescribed formula.
 
 ## Problem statement
 
@@ -36,11 +38,11 @@ def get_fibonacci_number(n: int) -> int:
 
 ```python
 
->>> get_fibonacci_number(3) # 2
->>> get_fibonacci_number(4) # 3
->>> get_fibonacci_number(5) # 5
->>> get_fibonacci_number(6) # 8
->>> get_fibonacci_number(7) # 13
+>>> get_fibonacci_number(3) # 1
+>>> get_fibonacci_number(4) # 2
+>>> get_fibonacci_number(5) # 3
+>>> get_fibonacci_number(6) # 5
+>>> get_fibonacci_number(7) # 8
 
 ```
 
